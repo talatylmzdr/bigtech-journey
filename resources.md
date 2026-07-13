@@ -20,10 +20,18 @@ Değişkenler, liste/dict değişimi, fonksiyon çağrısında stack, döngü ak
 karıştıran şeyleri somutlaştırır. OOP'de (referanslar) altın değerinde.
 **⚠️ Sıra:** Önce kendin yaz, SONRA görselleştir. Kod yazdırmaz, seni yazdırır.
 
-### Exercism — exercism.org (Python track)
-**Ne:** İnteraktif alıştırma + otomatik test + ÜCRETSİZ insan mentor (kodunu okur, yorum yapar).
-**Ne zaman:** Bir konuyu pekiştirmek isteyince. Corey'den konu → Exercism'de o konunun alıştırması.
-**Bonus:** Mentor yorumları İngilizce → İngilizce bloğuna denk gelir. "Şöyle daha Pythonic" geri bildirimi = kalite sıçraması.
+### Coddy — coddy.tech (Python journey)
+**Ne:** Duolingo tarzı interaktif Python — streak, XP, anında geri bildirim. Tarayıcı + mobil app.
+Sen takılınca AI ipucu verir ama CEVABI vermez (kod yazdırmaz, seni yazdırır).
+**Ne zaman:** HER GÜN, Corey'den SONRA, o günün konusunu pekiştirmek için. Görsel/eğlenceli ilerleme katmanı.
+**⚠️ Pusula kuralı:** Coddy'nin ders sırası ≠ Master Plan sırası. Takvimi Coddy DEĞİL, Master Plan belirler.
+"Coddy'de hangi bölümdeyim" değil, "planda hangi gündeyim" — Coddy o günün konusunu pekiştiren araç.
+**Not:** Free tier'da günlük "enerji" limiti var; dolunca dur, ana `dayN.py` işini Coddy'ye taşıma.
+
+### Exercism — exercism.org (ALTERNATİF — Coddy'yi seçtiysen gerekmez)
+**Ne:** İnteraktif alıştırma + ÜCRETSİZ insan mentor (kodunu okur, "şöyle daha Pythonic" der).
+**Ne zaman:** Coddy yerine bunu tercih edersen. İkisi aynı işi görür — İKİSİNİ BİRDEN kullanma.
+**Farkı:** Oyunlaştırma yok ama insan mentor + İngilizce pratiği var. Kod kalitesi geri bildirimi Coddy'nin AI ipucundan güçlü.
 
 ### VisuAlgo — visualgo.net
 **Ne:** Algoritma/veri yapısı görselleştirici. Bubble sort, BST insert, hash table — adım adım animasyon.
@@ -64,10 +72,15 @@ karıştıran şeyleri somutlaştırır. OOP'de (referanslar) altın değerinde.
 ```
 1. Corey/kaynak videosunu izle    → konuyu öğren (≤ bloğun 1/3'ü)
 2. dayN_xxx.py'yi KENDİN yaz       → değişmez, her satır senin
-3. Python Tutor'da görselleştir    → anlamayı derinleştir
-4. (opsiyonel) Exercism alıştırması → pekiştir + İngilizce mentor
+3. Coddy'de o konunun bölümü       → interaktif pekiştirme + görsel ilerleme
+4. Takılınca/derinleşince Python Tutor → kavramı bellek düzeyinde izle
 5. DSA günüyse: VisuAlgo 2 dk       → sonra LC'yi çöz
 ```
+
+**İki "görsel" karışmasın:**
+- **Coddy** = pratik + momentum + "doğru/yanlış" geri bildirim (refleks oturtur)
+- **Python Tutor** = kavramın kendisi (bellekte ne oluyor, gözünle izle) — "anlamak" buradan gelir
+Coddy pratik verir, Python Tutor kavratır. İkisi rakip değil, farklı işler.
 
 **Değişmez felsefe:** AI/araç → kavram açıklar, hata bulur, alternatif gösterir ✅
 Senin yerine kod yazar ❌ (H4'e kadar tamamen elle; mülakat kası bu).
