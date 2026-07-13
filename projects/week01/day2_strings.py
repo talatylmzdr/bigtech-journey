@@ -1,12 +1,42 @@
 # projects/week01/day2_strings.py
-def analyze_name(full_name: str) -> None:
-    full_name = full_name.strip()
-    capitalized = full_name.title()                 # "talat yilmaz" -> "Talat Yilmaz"
-    letter_count = sum(c.isalpha() for c in full_name)
-    reversed_name = full_name[::-1]
-    print(f"Duzeltilmis : {capitalized}")
-    print(f"Harf sayisi : {letter_count}")
-    print(f"Ters        : {reversed_name}")
 
-if __name__ == "__main__":
-    analyze_name(input("Ad soyad: "))
+ad = "Talat"
+yas = 25
+boy = 1.80
+print(f"Benim adım {ad}, yaşım {yas} ve boyum {boy} metre olduğunu düşünüyorum.")
+
+
+print(7 / 2)
+print(7 // 2)
+print(7 % 2)
+print(2 ** 5)
+
+mesaj = " Python öğrenmeye çalışıyorum. "
+
+print(mesaj.upper())
+print(mesaj.replace("Python" , "Backend"))
+print(mesaj.strip())
+print(mesaj.split())
+print(mesaj.find("çalışıyorum"))
+
+kelime = "Programlama"
+
+print(kelime[0])
+print(kelime[-1])
+print(kelime[0:4])
+print(kelime[::-1])
+print(kelime[0:5])
+
+
+fiyat = 19.99
+adet = 3
+toplam = fiyat * adet
+print(f"Toplam fiyat: {toplam:.2f} TL")
+
+isim = input("Adın ne?")
+harf_sayisi = len(isim)
+
+print(f"Merhaba {isim}, adin {harf_sayisi} harften oluşuyor.")
+
+
+
